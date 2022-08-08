@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+h2 {
+  color: #555555;
+  display: inline;
+}
+
+p {
+  color: rgba(170, 170, 170, 255);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ###  WHATSAPP ###*/
+
+main {
+  width: 30%;
+  margin: 2em auto;
+  border: thin solid black;
+  position: relative;
+}
+section {
+  border: thin solid rgba(238, 238, 238, 255);
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background-color: #008069;
+  color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  font-size: 5rem;
+}
+
+.nav {
+  background-color: #008069;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em;
+}
+
+.bi-camera-fill {
+  fill: #b3d9d2;
+}
+
+.color-a {
+  color: #b3d9d2;
+}
+
+.border-a {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0.2em;
+}
+
+.notificaciones {
+  background-color: #008069;
+  color: #b3d9d2;
+  display: flex;
+  justify-content: end;
+  padding: 0.3em;
+}
+
+span p {
+  color: #b3d9d2;
+}
+
+.margin-left {
+  margin-left: 0.4em;
+}
+
+.time {
+  position: absolute;
+  right: 0;
+  padding-right: 1em;
+  color: rgba(170, 170, 170, 255);
+}
